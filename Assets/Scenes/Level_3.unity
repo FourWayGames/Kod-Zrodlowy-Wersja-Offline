@@ -11832,6 +11832,7 @@ MonoBehaviour:
   HP_GO: {fileID: 842583042}
   WinPanel: {fileID: 1631987072}
   FadeOut: {fileID: 1345329948}
+  woosh: {fileID: 1345329949}
   Postacie:
   - {fileID: 21300000, guid: 595b1e819d4beae45a2bbd7740ab8d3b, type: 3}
   - {fileID: 21300000, guid: 37897f2b8fbe83a42a07632b948059b7, type: 3}

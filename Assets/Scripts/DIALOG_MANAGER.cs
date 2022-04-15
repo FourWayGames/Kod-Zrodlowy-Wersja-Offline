@@ -10,6 +10,7 @@ public class DIALOG_MANAGER : MonoBehaviour
     public Text TXT_autor, TXT_dialog;
     public GameObject Aktor1, Aktor2, PANEL_POMOCY, MAPA, PANEL_GORNY, ENEMYCOUNTER_GO, RESOURCES_GO, TIME_GO, HP_GO, WinPanel;
     public Animator FadeOut;
+    public Image woosh;
     public Sprite[] Postacie;
     public Button Skip_text, Auto_mover, Pomoc;
     public bool LVL0_DIALOG1, LVL0_DIALOG2, LVL0_DIALOG3, LVL3_DIALOGT, LVL1_DIALOG1, LVL1_DIALOG2, LVL2_DIALOG1, LVL2_DIALOG2, LVL3_DIALOG1, LVL3_DIALOG2, LVL4_DIALOG1, LVL4_DIALOG2, LVL5_DIALOG1, LVL5_DIALOG2, LVL6_DIALOG1, LVL6_DIALOG2, LVL7_DIALOG1, LVL7_DIALOG2, LVL8_DIALOG1, LVL8_DIALOG2;
@@ -42,9 +43,12 @@ public class DIALOG_MANAGER : MonoBehaviour
        
         DIALOG_HOLDER();
         DIALOG_EFFECTS();
-        if(gameObject.activeSelf && !PANEL_POMOCY.activeSelf){
+        if((gameObject.activeSelf && !PANEL_POMOCY.activeSelf)){
 if((Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space)) && ManagerForSecondProject.DM == false && TUTORIAL_BLOCKER == false ){
-            NR_DIALOGU++;
+       if(woosh.raycastTarget == false){
+        NR_DIALOGU++;
+       }
+            
         }
         }
     
@@ -656,7 +660,7 @@ if(PJ <= 0){
         break;
           case 112:
          TXT_autor.text = "OLIWIER";
-        TXT_dialog.text = "Kurde, powinniśmy się śpieszyć z obrony obroną. Dopuszczenie wroga do masy złota i pieniędzy może źle się skończyć...";
+        TXT_dialog.text = "Kurde, powinniśmy się śpieszyć z obroną. Dopuszczenie wroga do masy złota i pieniędzy może źle się skończyć...";
         break;
          case 113:
          LVL6_DIALOG1 = false;

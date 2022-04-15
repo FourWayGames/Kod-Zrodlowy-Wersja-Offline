@@ -28,11 +28,11 @@ public class PROJECTILE_SCR : MonoBehaviour
             break;
             case "GER_SNIPERSOL":
             //Physics2D.IgnoreLayerCollision(8, 7, true);
-            DAMAGE = 9;
+            DAMAGE = 12;
             break;
             case "GER_CZOLGSOL":
             //Physics2D.IgnoreLayerCollision(8, 7, true);
-            DAMAGE = 30;
+            DAMAGE = 35;
             break;
             case "Dzialko":
             gameObject.layer = LayerMask.NameToLayer("BaseProjectile");
@@ -40,7 +40,7 @@ public class PROJECTILE_SCR : MonoBehaviour
             break;
             case "CZOLG_ENT_POL":
             gameObject.layer = LayerMask.NameToLayer("BaseProjectile");
-            DAMAGE = 30; 
+            DAMAGE = 35; 
             break;
             case "SNIPERSOL_POL":
             gameObject.layer = LayerMask.NameToLayer("BaseProjectile");
