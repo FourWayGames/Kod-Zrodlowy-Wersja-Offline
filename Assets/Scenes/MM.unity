@@ -11258,8 +11258,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Wygrywaj poziomy aby odblokowywa\u0107 sobie r\xF3\u017Cne ciekawe informacje
-    na temat Powstania Warszawskiego!"
+  m_Text: "Tu znajdziesz r\xF3\u017Cne ciekawe informacje na temat Powstania Warszawskiego!"
 --- !u!222 &1186798435
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17221,7 +17220,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -8.900024, y: 187}
+  m_AnchoredPosition: {x: -8.899994, y: 187}
   m_SizeDelta: {x: 0.7000122, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1810294180
